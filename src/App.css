@@ -186,7 +186,8 @@ button {
   border-radius: 8px;
   padding: 1rem;
   max-height: max-content;
-  max-width: 70vw;
+  width: 70vw;
+  min-width: 340px;
 }
 .plot-card-upper {
   /* align-items: stretch; */
