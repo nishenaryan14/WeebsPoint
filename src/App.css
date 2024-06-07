@@ -200,6 +200,7 @@ button {
   flex-grow: 1;
   max-height: 350px;
   padding: 2rem;
+  padding-left: 0;
   overflow-y: scroll;
 }
 .plot-details-more {

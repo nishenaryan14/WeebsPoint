@@ -10,7 +10,7 @@ const AnimePlot = ({ anime, onClose }) => {
   return (
     // Brief plot about the anime
     <Box className="plot-card">
-      <Typography sx={theme.typography.h2}>AnimePlot</Typography>
+      <Typography sx={theme.typography.h3}>AnimePlot</Typography>
       <button className="btn" onClick={onClose}>
         <img src={close} alt="" className="btn-close" />
       </button>
