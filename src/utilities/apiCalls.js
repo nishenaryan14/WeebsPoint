@@ -14,7 +14,6 @@ export const getAnime = async (title) => {
   }
   try {
     const result = await response.json();
-    console.log(result);
     return result.data || [];
   } catch (error) {
     console.error(error);

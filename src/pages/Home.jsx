@@ -62,7 +62,6 @@ const Home = () => {
 
   const handleCardClick = (anime) => {
     setSelectedAnime(anime);
-    console.log(anime);
   };
 
   const handleCloseAnime = () => {
