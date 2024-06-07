@@ -12,6 +12,7 @@ const AnimePlot = ({ anime, onClose }) => {
     <Box className="plot-card">
       <Typography sx={theme.typography.h3}>AnimePlot</Typography>
       <button className="btn" onClick={onClose}>
+        {/* click this to go back to the list */}
         <img src={close} alt="" className="btn-close" />
       </button>
       <Box className="plot-card-upper">

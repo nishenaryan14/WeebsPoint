@@ -8,7 +8,12 @@ const NavBar = () => {
   return (
     <AppBar
       position="static"
-      sx={{ background: theme.palette.background.dark, color: "#fff" }}
+      sx={{
+        background: theme.palette.background.dark,
+        color: "#fff",
+        position: "fixed",
+        zIndex: "20",
+      }}
     >
       <Toolbar>
         <Box sx={{ flexGrow: 1 }}>

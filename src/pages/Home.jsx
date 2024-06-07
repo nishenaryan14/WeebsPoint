@@ -10,7 +10,7 @@ import { useTheme } from "@emotion/react";
 //styling for home page
 const homeStyles = {
   layout: {
-    padding: "3rem",
+    padding: "4.4rem 3rem 3rem",
     display: "flex",
     justifyContent: " center",
     alignItems: "center",
