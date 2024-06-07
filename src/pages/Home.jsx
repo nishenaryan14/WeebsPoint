@@ -26,6 +26,7 @@ const homeStyles = {
   },
   search: {
     width: "71%",
+    minWidth: "375px",
     margin: "4rem 0 2rem",
     display: "flex",
     alignItems: "center",
