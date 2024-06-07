@@ -17,20 +17,6 @@ body {
   background-color: #503d7e;
 }
 
-h1 {
-  font-size: 3rem;
-  letter-spacing: 0.9px;
-  background: linear-gradient(
-    90deg,
-    rgb(246, 205, 172) 20%,
-    rgba(249, 211, 180, 0) 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  width: fit-content;
-}
-
 .searchInput {
   flex: 1;
   border: none;
@@ -38,7 +24,6 @@ h1 {
   font-family: var(--font-raleway);
   font-weight: 500;
   padding-right: 1rem;
-
   outline: none;
   color: #a1a1a1;
   background: #1f2123;
@@ -53,132 +38,6 @@ button {
   background-color: transparent;
 }
 
-.empty {
-  width: 100%;
-  margin-top: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.empty h2 {
-  font-size: 1.25rem;
-  color: #f9d3b4;
-  font-family: var(--font-raleway);
-}
-
-.container {
-  width: 100%;
-  margin-top: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.anime {
-  width: 310px;
-  height: 420px;
-  margin: 1.5rem;
-  filter: saturate(150%);
-  position: relative;
-  border-radius: 12px;
-  overflow: hidden;
-  border: none;
-
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
-  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
-}
-
-.anime:hover {
-  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
-  transform: scale(1.05, 1.05);
-}
-
-.anime div:nth-of-type(1) {
-  width: 100%;
-  height: 100%;
-}
-
-.anime div:nth-of-type(1) img {
-  height: 100%;
-  width: 100%;
-}
-
-.anime div:nth-of-type(2) {
-  z-index: 2;
-  background-color: #343739;
-  padding: 16px 24px 24px 24px;
-
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
-
-.anime div:nth-of-type(2) span {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-size: 13px;
-  letter-spacing: 2px;
-  font-weight: 500;
-  color: #f0f0f0;
-}
-
-.anime div:nth-of-type(2) h3 {
-  margin-top: 5px;
-  font-family: "Roboto Slab", serif;
-  color: #f9d3b4;
-}
-
-.anime:hover div:nth-of-type(1) {
-  height: 100%;
-  opacity: 0.3;
-}
-
-.anime:hover div:nth-of-type(2) {
-  background-color: transparent;
-}
-
-@media screen and (max-width: 600px) {
-  .app {
-    padding: 4rem 2rem;
-  }
-
-  .search {
-    padding: 1rem 1.75rem;
-    width: 100%;
-  }
-
-  .search input {
-    font-size: 1rem;
-  }
-
-  .search img {
-    width: 20px;
-    height: 20px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .app {
-    padding: 4rem 1rem;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  .container {
-    margin-top: 2rem;
-  }
-
-  .anime {
-    width: "100%";
-    margin: 1rem;
-  }
-}
-
 .plot-card {
   margin-top: 1rem;
   position: relative;
@@ -190,11 +49,8 @@ button {
   min-width: 340px;
 }
 .plot-card-upper {
-  /* align-items: stretch; */
   display: flex;
-  /* flex-flow: nowrap; */
   flex-wrap: wrap;
-  /* justify-content: space-evenly; */
 }
 .plot-details-major {
   flex-grow: 1;
@@ -222,15 +78,6 @@ button {
 .span {
   margin: 5px;
 }
-/* .plot-img {
-  padding: 2rem;
-  min-width: 45%;
-}
-.plot-img img {
-  width: 100%;
-  height: 100%;
-}
-*/
 .plot-img {
   flex: 1;
 }

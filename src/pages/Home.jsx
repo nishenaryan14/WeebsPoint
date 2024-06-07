@@ -3,7 +3,7 @@ import "../App.css";
 import AnimeCard from "../components/AnimeCard";
 import AnimePlot from "../components/AnimePlot";
 import search from "../search.svg";
-import { getAnime } from "../apiCalls";
+import { getAnime } from "../utilities/apiCalls";
 import { Box, Container, Typography } from "@mui/material";
 import { useTheme } from "@emotion/react";
 
@@ -23,6 +23,7 @@ const homeStyles = {
     justifyContent: "center",
     alignItems: "center",
     flexWrap: "wrap",
+    transition: "0.3s all ease",
   },
   search: {
     width: "71%",
